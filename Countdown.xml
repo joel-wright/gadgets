@@ -2,6 +2,7 @@
 <Module>
 <ModulePrefs title="Countdown!" />
 <Content type="html"><![CDATA[
+<b>Test Some Text</b>
 <script language="JavaScript">
 TargetDate = "12/31/2020 5:00 AM";
 BackColor = "palegreen";
