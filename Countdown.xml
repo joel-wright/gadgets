@@ -14,6 +14,7 @@ DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
 FinishMessage = "It is finally here!";
 </script>
 
+<script language="javascript" type="text/javascript">
 /*
 Author: Robert Hashemian
 http://www.hashemian.com/
@@ -94,6 +95,6 @@ else
   ddiff = new Date(dthen-dnow);
 gsecs = Math.floor(ddiff.valueOf()/1000);
 CountBack(gsecs);
-
+</script>
 ]]></Content>
 </Module>
