@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Weather Forecast" />
+<Content type="html"><![CDATA[
+
+<!-- *START_J2SKI* - Mini Snow Forecast, from http://www.j2ski.com/   -->
+<!-- (c) 2012, J2Ski, All Rights Reserved                             -->
+<!-- You may use this code on your Web Site, but you may not alter it.-->
+<!-- You may add up to 3 Mini Snow Forecasts to a Site free of charge.-->
+<!-- This code must be kept complete from START_J2SKI to END_J2SKI.   -->
+<!-- To license multiple resorts, e-mail us on  snow(at)j2ski.com.    -->
+<table style="border:0;border-collapse:collapse;border-spacing:0">
+<tbody>
+<tr><td><iframe height="112" src="http://www.j2ski.co.uk/snow_forecast/France/Val_Thorens_mini.html" width="340"></iframe>
+</td></tr>
+<tr><td><div style="font-family:Tahoma,sans-serif;font-size:12px;"><a href="http://www.j2ski.co.uk/snow_forecast/France/Val_Thorens_snow.html" title="Val Thorens Snow Forecast from j2ski.com">Val Thorens Snow Forecast</a> | <a href="http://www.j2ski.co.uk/snow_forecast/France/Val_Thorens_snow_report.html" title="Val Thorens Snow Report">Snow Report</a> | <a href="http://www.j2ski.com/ski-chat-forum/user/insert.page" title="Free Weekly Snow Reports from j2ski.com">by E-mail</a></div>
+</td></tr>
+</tbody>
+</table>
+
+<!-- *END_J2SKI* -->
+
+]]></Content>
+</Module>
