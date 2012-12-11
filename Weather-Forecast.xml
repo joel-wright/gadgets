@@ -3,6 +3,8 @@
 <ModulePrefs title="Weather Forecast" />
 <Content type="html"><![CDATA[
 
+<h2>Weather Forecast</h2>
+
 <!-- *START_J2SKI* - Mini Snow Forecast, from http://www.j2ski.com/   -->
 <!-- (c) 2012, J2Ski, All Rights Reserved                             -->
 <!-- You may use this code on your Web Site, but you may not alter it.-->
