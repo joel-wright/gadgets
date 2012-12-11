@@ -3,7 +3,13 @@
 <ModulePrefs title="Webcams" />
 <Content type="html"><![CDATA[
 
+<h2>Village Panorama</h2>
+
 <img src="http://panodata1.livecam360.com/cams/74/recent_reduced.jpg" data-width="2728" data-height="335" alt="Panorama Val thorens" style="height: 335px; left: 0px;">
+
+<h2>Folie Douce - Plein Sud</h2>
+
+<iframe width="952" height="550" frameborder="no" allowfullscreen webkitllowfullscreen mozallowfullscreen src="http://m.webcam-hd.com/val-thorens/folie-douce" name="webcam">…</iframe>
 
 ]]></Content>
 </Module>
