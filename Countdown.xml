@@ -5,8 +5,8 @@
 
 <script language="JavaScript">
 TargetDate = "12/31/2020 5:00 AM";
-BackColor = "palegreen";
-ForeColor = "navy";
+BackColor = "white";
+ForeColor = "black";
 CountActive = true;
 CountStepper = -1;
 LeadingZero = true;
@@ -48,7 +48,7 @@ function CountBack(secs) {
 
 function putspan(backcolor, forecolor) {
  document.write("<span id='cntdwn' style='background-color:" + backcolor + 
-                "; color:" + forecolor + "'></span>");
+                "; color:" + forecolor + "; font-size: 24pt'></span>");
 }
 
 if (typeof(BackColor)=="undefined")
