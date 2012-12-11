@@ -4,14 +4,14 @@
 <Content type="html"><![CDATA[
 
 <script language="JavaScript">
-TargetDate = "12/31/2020 5:00 AM";
+TargetDate = "01/12/2012 3:00 AM";
 BackColor = "white";
 ForeColor = "black";
 CountActive = true;
 CountStepper = -1;
 LeadingZero = true;
 DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
-FinishMessage = "It is finally here!";
+FinishMessage = "Skiing, skiing, SKIING!";
 </script>
 
 <script language="javascript" type="text/javascript">
