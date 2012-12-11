@@ -52,8 +52,6 @@
 					}
 				});
 				
-				$('#email_field').focus(email_focus).blur(email_blur);
-				$('#subscribe_form').bind('submit', function() { return false; });
 			});
 		</script>
 ]]></Content>
