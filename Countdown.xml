@@ -2,57 +2,18 @@
 <Module>
 <ModulePrefs title="Countdown!" />
 <Content type="html"><![CDATA[
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="http://www.littlewebthings.com/projects/countdown/demo/js/jquery.lwtCountdown-1.0.js"></script>
-<link rel="Stylesheet" type="text/css" href="http://www.littlewebthings.com/projects/countdown/example/style/main.css"></link>
 
-		<div id="countdown_dashboard">
-			<div class="dash weeks_dash">
-				<span class="dash_title">weeks</span>
-				<div class="digit">0</div>
-				<div class="digit">0</div>
-			</div>
+<script language="JavaScript">
+TargetDate = "12/31/2020 5:00 AM";
+BackColor = "palegreen";
+ForeColor = "navy";
+CountActive = true;
+CountStepper = -1;
+LeadingZero = true;
+DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
+FinishMessage = "It is finally here!";
+</script>
+<script language="JavaScript" src="http://scripts.hashemian.com/js/countdown.js"></script>
 
-			<div class="dash days_dash">
-				<span class="dash_title">days</span>
-				<div class="digit">0</div>
-				<div class="digit">0</div>
-			</div>
-
-			<div class="dash hours_dash">
-				<span class="dash_title">hours</span>
-				<div class="digit">0</div>
-				<div class="digit">0</div>
-			</div>
-
-			<div class="dash minutes_dash">
-				<span class="dash_title">minutes</span>
-				<div class="digit">0</div>
-				<div class="digit">0</div>
-			</div>
-
-			<div class="dash seconds_dash">
-				<span class="dash_title">seconds</span>
-				<div class="digit">0</div>
-				<div class="digit">0</div>
-			</div>
-
-		</div>
-
-		<script language="javascript" type="text/javascript">
-			jQuery(document).ready(function() {
-				$('#countdown_dashboard').countDown({
-					targetDate: {
-						'day': 		10,
-						'month': 	1,
-						'year': 	2013,
-						'hour': 	11,
-						'min': 		0,
-						'sec': 		0
-					}
-				});
-				
-			});
-		</script>
 ]]></Content>
 </Module>
