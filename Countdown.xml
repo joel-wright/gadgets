@@ -16,6 +16,8 @@ FinishMessage = "It is finally here!";
 
 <script language="javascript" type="text/javascript">
 
+/* test comment */
+
 function calcage(secs, num1, num2) {
   s = ((Math.floor(secs/num1))%num2).toString();
   if (LeadingZero && s.length < 2)
