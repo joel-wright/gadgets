@@ -3,7 +3,7 @@
 <ModulePrefs title="Countdown!" />
 <Content type="html"><![CDATA[
 <b>Test Some Text</b>
-<script language="JavaScript">
+<script src="http://scripts.hashemian.com/js/countdown.js" type="text/javaScript">
 TargetDate = "12/31/2020 5:00 AM";
 BackColor = "palegreen";
 ForeColor = "navy";
@@ -13,6 +13,5 @@ LeadingZero = true;
 DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
 FinishMessage = "It is finally here!";
 </script>
-<script language="JavaScript" src="http://scripts.hashemian.com/js/countdown.js"></script>
 ]]></Content>
 </Module>
